@@ -8,11 +8,11 @@ body {
   font-family: Arial, sans-serif;
   min-height: 100vh;
   background: linear-gradient(180deg, #ffe4ec 0%, #ffd6e7 45%, #fff2f7 100%);
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   position: relative;
   color: #5a3551;
 }
-
 .container {
   min-height: 100vh;
   display: flex;
